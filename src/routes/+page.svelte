@@ -10,6 +10,18 @@
   }
 </script>
 
+<style>
+  nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    margin-bottom: 20px; /* Optional: Adds space below nav */
+  }
+
+  button {
+    margin-left: 10px; /* Optional: Adds space between buttons */
+  }
+</style>
+
 <nav>
   <button onclick={() => setTab('card')}>Card</button>
   <button onclick={() => setTab('counter')}>Counter</button>
